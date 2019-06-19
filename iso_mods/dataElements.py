@@ -131,9 +131,6 @@ class dataElements:
     BITS_VALUE_TYPE[127] = ['127', 'Reserved for private use', 'LLL', 999, 'ans']
     BITS_VALUE_TYPE[128] = ['128', 'Message authentication code', 'B', 16, 'b']
 
-    # def __init__(self):
-    #     pass
-
     def getBitLabel(self, bit):
         return self.BITS_VALUE_TYPE[bit][1]
 
