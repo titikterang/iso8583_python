@@ -1,2 +1,2 @@
 # iso8583_python
-iso 8583 parser based on python
+simple iso 8583 unpacker based on python
